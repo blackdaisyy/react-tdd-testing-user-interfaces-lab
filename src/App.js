@@ -1,17 +1,26 @@
-// src/App.js
 import React from "react";
 
 function App() {
   return (
     <div>
-      <h1>Hi, I'm John Doe</h1>
-      <img src="https://example.com/john-doe.jpg" alt="John Doe smiling" />
+      <h1>Hi, I'm Jane Doe</h1>
+
+      <img
+        src="https://via.placeholder.com/150"
+        alt="Profile picture"
+      />
+
       <h2>About Me</h2>
-      <p>
-        I am a web developer passionate about building great user experiences.
-      </p>
-      <a href="https://github.com/johndoe">GitHub</a>
-      <a href="https://linkedin.com/in/johndoe">LinkedIn</a>
+
+      <p>I'm a web developer who loves building accessible and engaging user interfaces.</p>
+
+      <a href="https://github.com/janedoe" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+      <br />
+      <a href="https://linkedin.com/in/janedoe" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
     </div>
   );
 }
